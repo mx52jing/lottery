@@ -1,13 +1,16 @@
 # 抽奖程序
 
 ## 项目介绍
- 参考[lottery-web](https://github.com/GAtomis/lottery-web)
+参考[lottery-web](https://github.com/GAtomis/lottery-web)
+
+## 项目预览
+[预览链接](https://mx52jing.github.io/lottery/)
 
 ## 启动项目
 ### node版本
 ```
-    "node": "<= 13.14.0"
-    //推荐版本  12.11.0
+"node": "<= 13.14.0"
+//推荐版本  12.11.0
 ```
 ### 安装依赖
 ```
@@ -81,7 +84,6 @@ Lottery-web
     awards: "1st-BJ-BGM",//颁奖音乐
     ROTATE_TIME: 20000,
     circle: 8 * 6
-
   },
 ```
 

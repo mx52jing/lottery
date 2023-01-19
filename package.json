@@ -7,8 +7,7 @@
     "serve": "npm run start",
     "build": "webpack --mode=production --progress --colors",
     "dev": "webpack-dev-server --config webpack.dev.js --mode=development --progress --colors",
-    "preview": "yarn build && http-server ./dist -p 9000s",
-    "deploy": "gh-pages -d dist"
+    "preview": "yarn build && http-server ./dist -p 9000s"
   },
   "author": "moshang",
   "license": "ISC",
@@ -23,7 +22,6 @@
     "cross-env": "^6.0.3",
     "css-loader": "^0.28.10",
     "file-loader": "^6.2.0",
-    "gh-pages": "^4.0.0",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.0.4",
     "http-server": "13.0.2",

@@ -84,7 +84,7 @@ const prizes = [
     type: 2,
     count: 3,
     text: "钱兔无量奖",
-    title: "(888元)",
+    title: "(1888元)",
     img: secondPrizeImg,
     enter: lotteryMusic,//抽奖进行时音乐
     awards: "other-BJ-BGM",//颁奖音乐
@@ -95,7 +95,7 @@ const prizes = [
     type: 3,
     count: 5,
     text: "扬眉兔气奖",
-    title: "(188元)",
+    title: "(888元)",
     img: thirdPrizeImg,
     enter: lotteryMusic,//抽奖进行时音乐
     awards: "other-BJ-BGM",//颁奖音乐
