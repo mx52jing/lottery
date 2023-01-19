@@ -15,7 +15,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '12.11.0'
-        run: yarn && yarn build
+      
+      - run: yarn && yarn build
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
