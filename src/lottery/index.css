@@ -91,8 +91,8 @@ a {
 .element .name {
   margin: 0 10px;
   position: absolute;
-  top: 52%;
-  /*top: 46%;*/
+  /*top: 52%;*/
+  top: 46%;
   /*transform: translateY(-50%);*/
   left: 0;
   right: 0;
@@ -633,4 +633,8 @@ video {
   background: url("../img/fire-cracker-right.png") no-repeat;
   background-size: contain;
   right: 0;
+}
+.element.prize .name {
+  top: 50%;
+  transform: translateY(-50%);
 }

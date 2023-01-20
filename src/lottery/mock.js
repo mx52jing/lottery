@@ -6,8 +6,8 @@
  * @LastEditors: Gavin
  */
 import firstPrizeImg from '../img/prize_2023.png'
-import secondPrizeImg from '../img/prize_888.png'
-import thirdPrizeImg from '../img/prize_188.png'
+import secondPrizeImg from '../img/prize_1888.png'
+import thirdPrizeImg from '../img/prize_888.png'
 import lotteryMusic from '../data/lottery.mp3'
 // import fourthImg from '../img/edifier.jpg'
 
@@ -49,7 +49,7 @@ const user = userArr.sort(randomsort)
 /**
  * 卡片公司名称标识
  */
-const COMPANY = "STDRJ";
+const COMPANY = "";
 /**
  * 奖品设置
  * type: 唯一标识，0是默认特别奖的占位符，其它奖品不可使用
